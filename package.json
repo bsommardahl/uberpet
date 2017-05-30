@@ -1,0 +1,22 @@
+{
+  "name": "tdd-hotel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bsommardahl/tdd-hotel.git"
+  },
+  "author": "Byron Sommardahl <byron@acklenavenue.com> (http://acklenavenue.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bsommardahl/tdd-hotel/issues"
+  },
+  "homepage": "https://github.com/bsommardahl/tdd-hotel#readme",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  }
+}
