@@ -1,43 +1,32 @@
-# tdd-hotel
+# UberPet
 
 [![Gitter chat](https://badges.gitter.im/tdd-hotel/gitter.png)](https://gitter.im/tdd-hotel)
 
-## Outline
-1. [Why?](Why.md)
-2. [What?](What.md)
-3. [How?](How.md)
-
-## Session Rules:
-
-1. Work in pairs. No lone rangers.
-2. Follow ATDD process strictly.
-3. Swap partners and code every X minutes.
+[Slides](https://slides.com/byronsommardahl/extreme-tdd)
+[Cloud9 IDE]()
 
 ## MVP Features:
 
-- Search Available Rooms
-- Reserve a Room
-- Check-In
-- Check-Out
-
-### Roadmap:
-- Cancel a Reservation
-- Add a Room Charge
+- Search Available Pets
+- Reserve Pet
+- Cancel Reservation
+- Pet Delivery
+- Pet Return
 
 ## Let's Roll!
 
 ### Clone the repo:
 SSH:
 ```
-git clone git@github.com:bsommardahl/tdd-hotel.git
+git clone git@github.com:bsommardahl/uberpet.git
 ```
 or, Https:
 ```
-gti clone https://github.com/bsommardahl/tdd-hotel.git
+gti clone https://github.com/bsommardahl/uberpet.git
 ```
 
 ### Download all the dependencies:
 ```
-cd tdd-hotel
+cd uberpet
 npm install
 ```
