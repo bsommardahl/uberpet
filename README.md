@@ -1,18 +1,11 @@
 # tdd-hotel
 
+[![Gitter chat](https://badges.gitter.im/tdd-hotel/gitter.png)](https://gitter.im/tdd-hotel)
+
 ## Outline
-1. Why?
-2. What?
-3. How?
-
-## Assets/Tools
-Chat: https://gitter.im/tdd-hotel
-
-## Getting Started:
-
-```
-npm install
-```
+1. [Why?](Why.md)
+2. [What?](What.md)
+3. [How?](How.md)
 
 ## Session Rules:
 
@@ -30,3 +23,21 @@ npm install
 ### Roadmap:
 - Cancel a Reservation
 - Add a Room Charge
+
+## Let's Roll!
+
+### Clone the repo:
+SSH:
+```
+git clone git@github.com:bsommardahl/tdd-hotel.git
+```
+or, Https:
+```
+gti clone https://github.com/bsommardahl/tdd-hotel.git
+```
+
+### Download all the dependencies:
+```
+cd tdd-hotel
+npm install
+```
