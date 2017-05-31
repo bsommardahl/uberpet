@@ -18,5 +18,10 @@
   "homepage": "https://github.com/bsommardahl/tdd-hotel#readme",
   "devDependencies": {
     "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "boom": "^5.1.0",
+    "hapi": "^16.3.0",
+    "mototaxi": "^1.1.18"
   }
 }
