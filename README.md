@@ -2,10 +2,9 @@
 
 [![Join the chat at https://gitter.im/uberpet/Lobby](https://badges.gitter.im/uberpet/Lobby.svg)](https://gitter.im/uberpet/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-[![Gitter chat](https://badges.gitter.im/tdd-hotel/gitter.png)](https://gitter.im/tdd-hotel)
+[![slides-badge](https://cdn.rawgit.com/kentcdodds/custom-badges/VERSION/badges/slides.svg)](https://slides.com/byronsommardahl/extreme-tdd)
 
-[Slides](https://slides.com/byronsommardahl/extreme-tdd)
-[Cloud9 IDE]()
+[![Open in Cloud9](https://img.shields.io/badge/Open%20in-Cloud9-blue.svg?style=flat-square)](https://ide.c9.io/bsommardahl/uberpet)
 
 ## MVP Features:
 
