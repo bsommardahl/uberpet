@@ -1,5 +1,5 @@
 {
-  "name": "tdd-hotel",
+  "name": "uberpet",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bsommardahl/tdd-hotel.git"
+    "url": "git+https://github.com/bsommardahl/uberpet.git"
   },
   "author": "Byron Sommardahl <byron@acklenavenue.com> (http://acklenavenue.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bsommardahl/tdd-hotel/issues"
+    "url": "https://github.com/bsommardahl/uberpet/issues"
   },
-  "homepage": "https://github.com/bsommardahl/tdd-hotel#readme",
+  "homepage": "https://github.com/bsommardahl/uberpet#readme",
   "devDependencies": {
     "jest": "^20.0.4"
   },
