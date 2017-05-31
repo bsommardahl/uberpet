@@ -1,20 +1,32 @@
 # tdd-hotel
 
+## Outline
+1. Why?
+2. What?
+3. How?
+
+## Assets/Tools
 Chat: https://gitter.im/tdd-hotel
 
-Rules:
-------
+## Getting Started:
+
+```
+npm install
+```
+
+## Session Rules:
+
 1. Work in pairs. No lone rangers.
 2. Follow ATDD process strictly.
 3. Swap partners and code every X minutes.
-4.
 
-MVP Features:
+## MVP Features:
+
 - Search Available Rooms
 - Reserve a Room
 - Check-In
 - Check-Out
 
-Roadmap:
+### Roadmap:
 - Cancel a Reservation
 - Add a Room Charge
