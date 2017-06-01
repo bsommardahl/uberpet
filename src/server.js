@@ -5,13 +5,20 @@ const Hapi = require('hapi');
 const server = new Hapi.Server();
 server.connection({ port: process.env.PORT || 3000, host: process.env.IP || 'localhost' });
 
+const db = [
+            { age: 3, type: 'dog'},
+            { age: 5, type: 'cat'},
+            { age: 10, type: 'dog'},
+            { age: 3, type: 'cat'},
+        ];
+
 server.route({
     method: 'GET',
     path: '/pets',
     handler: function (request, reply) {
-        //get an array of pet by the search criteria
-        // const repository = require('./petRepository');
-        // const searchResult = repository.search({ type: request.payload.type, age: request.payload.age })
+        const repository = require('./repository');
+        const repo = new repository(db)
+        const searchResult = repo.search({ type: request.query.type, age: request.query.age })
         reply(searchResult);
     }
 });
