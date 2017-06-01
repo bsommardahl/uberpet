@@ -6,7 +6,7 @@ class ReservationService{
 
     reserve(id, date) {
         const pet = this.repo.get(id);
-        const reservation = this.repo.reserve(pet, date);
+        this.repo.reserve(pet, date);
         return { pet: pet };
     }
 }
