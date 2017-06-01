@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest"
+  },
+  "jest": {
+    "verbose": true,
+    "testPathIgnorePatterns": [".c9", "node_modules"]
   },
   "repository": {
     "type": "git",
